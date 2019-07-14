@@ -1,0 +1,1 @@
+export const LOAD_PAGE_JSON = 'editor/LOAD_PAGE_JSON';

@@ -4,6 +4,15 @@ yarn add antd
 yarn add react-app-rewired customize-cra
 yarn add babel-plugin-import
 yarn add less less-loader
+
+yarn add redux-thunk
+yarn add redux-immutable
+yarn add react-router-dom
+yarn add axios
+yarn add redux
+yarn add styled-components
+yarn add react-redux
+yarn add immutable
 ```
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
