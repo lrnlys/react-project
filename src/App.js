@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Button,Row,Col } from 'antd';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Row>
+        <Col style={{'background':'white',height:'46px'}} ></Col>
+      </Row>
+      <Row gutter={8}>
+        <Col span={6} style={{'background':'red',height:'100px'}}></Col>
+        <Col span={8} style={{'background':'yellow',height:'100px'}}></Col>
+        <Col span={10} style={{'background':'blue',height:'100px'}}></Col>
+      </Row>
     </div>
   );
 }
